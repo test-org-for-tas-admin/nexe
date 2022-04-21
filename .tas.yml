@@ -1,5 +1,5 @@
 ---
-framework: jest
+framework: mocha
 preRun:
   command:
     - npm ci  
