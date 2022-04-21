@@ -5,7 +5,7 @@ preRun:
     - npm ci  
 preMerge:
   pattern:
-    - "./test/*.spec.ts"
+    - "./test/*/.spec.ts"
 postMerge:
   pattern: 
     - "./test/*.spec.ts"
