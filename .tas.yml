@@ -2,7 +2,7 @@
 framework: mocha
 preRun:
   command:
-    - npm install  
+    - npm ci  
 preMerge:
   pattern:
     - "./test/*.spec.ts"
